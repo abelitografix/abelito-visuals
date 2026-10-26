@@ -45,7 +45,7 @@ export const site = {
     featured: [
   'ladies-night',
   'rhumba-old-school-amapiano',
-  'meat-and-greet'
+  'meet-and-greet'
 ],
 },
   // ---------------------------------------------------------------
