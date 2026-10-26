@@ -95,12 +95,12 @@ export const projects = [
   variant: 0,
   palette: [C.orange, C.lime, C.ink, C.pink],
   cover: {
-    src: '/work/meat-and-greet.jpg',
+    src: '/work/meat-&-greet.jpg',
     alt: 'Meat and Greet event poster'
   },
   images: [
     {
-      src: '/work/meat-and-greet.jpg',
+      src: '/work/meat-&-greet.jpg',
       alt: 'Meat and Greet event flyer'
     }
   ],
