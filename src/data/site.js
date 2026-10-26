@@ -15,16 +15,16 @@ export const site = {
   // ---------------------------------------------------------------
   contact: {
     // Your email address, e.g. 'hello@yourdomain.com'
-    email: '',
+    email: 'abelianabelito@gmail.com',
 
     // WhatsApp number in international format, numbers only.
     // Kenya example: 0712 345 678  ->  '254712345678'
     // (drop the first 0, start with 254, no spaces, no + sign)
-    whatsapp: '',
+    whatsapp: '254769297046',
 
     // Instagram username without the @, e.g. 'abelito.visuals'
     // (pasting the full profile link also works)
-    instagram: '',
+    instagram: 'abelito.visuals',
   },
 
   // ---------------------------------------------------------------
