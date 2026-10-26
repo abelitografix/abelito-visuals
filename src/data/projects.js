@@ -87,24 +87,31 @@ export const projects = [
   tools: ['Photoshop']
 },
   {
-    slug: 'social-series-01',
-    title: 'Social Media Placeholder',
-    category: 'social',
-    span: 5,
-    placeholder: true,
-    variant: 3,
-    palette: [C.orange, C.ink, C.paper, C.cobalt, C.lime],
-    cover: img('4/5'),
-    images: [img('4/5'), img('4/5'), img('1/1')],
-    video: null,
-    year: '',
-    client: '',
-    brief:
-      'Sample text. Describe the account or brand, what the posts needed to achieve, and who the audience was.',
-    approach:
-      'Sample text. Explain the visual system you built (templates, colours, type) so every post feels connected while still looking fresh.',
-    deliverables: ['Post templates (1080 × 1350)', 'Story templates (1080 × 1920)', 'Editable source files'],
-    tools: [],
+   slug: 'meat-and-greet',
+  title: 'Meat and Greet',
+  category: 'posters',
+  span: 7,
+  placeholder: false,
+  variant: 0,
+  palette: [C.orange, C.lime, C.ink, C.pink],
+  cover: {
+    src: '/work/meat-and-greet.jpg',
+    alt: 'Meat and Greet event poster'
+  },
+  images: [
+    {
+      src: '/work/meat-and-greet.jpg',
+      alt: 'Meat and Greet event flyer'
+    }
+  ],
+  video: null,
+  year: '',
+  client: 'Gotab Gaa Advocates',
+  brief: 'Design a vibrant promotional poster for the Meat and Greet event featuring performing artist Kipsang.',
+  approach: 'Combined warm orange lighting, bold yellow-green typography, artist portraits and energetic event imagery.',
+  deliverables: ['Event poster', 'Social media flyer'],
+  tools: ['Photoshop']
+},
   },
   {
     slug: 'brand-identity-01',
