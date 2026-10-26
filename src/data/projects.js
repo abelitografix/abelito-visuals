@@ -95,15 +95,15 @@ export const projects = [
   variant: 0,
   palette: [C.orange, C.lime, C.ink, C.pink],
   cover: {
-    src: '/work/meet-&-greet.jpg',
-    alt: 'meet and greet event poster'
-  },
-  images: [
-    {
-      src: '/work/meet-&-greet.jpg',
-      alt: 'Meet and Greet event flyer'
-    }
-  ],
+  src: '/work/Meet-&-Greet.jpg',
+  alt: 'Meat and Greet event poster'
+},
+images: [
+  {
+    src: '/work/Meet-&-Greet.jpg',
+    alt: 'Meat and Greet event flyer'
+  }
+],
   video: null,
   year: '',
   client: 'Gotab Gaa Advocates',
