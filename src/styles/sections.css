@@ -341,7 +341,7 @@
 
 .collage__card {
   position: absolute;
-  width: 32%;
+  width: 35%;
   aspect-ratio: 4 / 5;
   overflow: hidden;
   border: 2px solid var(--ink);
@@ -360,16 +360,16 @@
 }
 
 .collage__card.c2 {
-  left: 32%;
+  left: 30%;
   top: 3%;
-  z-index: 2;
+  z-index: 4;
   transform: rotate(3deg);
 }
 
 .collage__card.c3 {
   right: 0%;
   top: 18%;
-  z-index: 4;
+  z-index: 3;
   transform: rotate(8deg);
 }
 
