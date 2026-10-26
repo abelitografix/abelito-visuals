@@ -42,14 +42,14 @@ const img = (ratio, alt = '') => ({ src: null, alt, ratio });
 export const projects = [
   {
     slug: 'event-poster-01', // used in the page link, keep it lowercase with dashes
-    title: 'Event Poster Placeholder',
+    title: 'Ladies Night',
     category: 'posters', // one of the category ids above
     span: 7, // width on large screens, out of 12 columns (4, 5, 7 or 12 look best)
-    placeholder: true,
+    placeholder: false,
     variant: 0, // which placeholder pattern to draw (0 to 7), ignored for real images
     palette: [C.cobalt, C.lime, C.orange, C.pink, C.ink],
-    cover: img('4/5', 'Describe the cover image for screen-reader users'),
-    images: [img('4/5'), img('1/1'), img('16/9')],
+    cover: { src: '/work/ladies-night.png', alt: 'Ladies Night event poster' },
+    images: [{ src: '/work/ladies-night.png', alt: 'Ladies Night poster' }],
     video: null, // optional: '/work/my-clip.mp4' to show a video at the top of the case study
     year: '', // optional, e.g. '2026'
     client: '', // optional, only fill in if the client is happy to be named

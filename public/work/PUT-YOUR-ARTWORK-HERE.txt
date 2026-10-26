@@ -1,0 +1,3 @@
+Put your finished portfolio images in this folder (WebP or JPG, around 1200-1800px wide).
+Then point to them in src/data/projects.js, for example:  src: '/work/my-poster.webp'
+See README.md, section 1, for the full steps.
