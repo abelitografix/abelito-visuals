@@ -42,8 +42,11 @@ export const site = {
     badge: 'GRAPHIC DESIGN • KENYA • VISUALS • ',
     // The 3 projects shown as tilted cards in the hero.
     // Use the "slug" of a project from src/data/projects.js
-    featured: ['ladies-night','rhumba-old-school-amapiano','meat-and-greet'],
-  },
+    featured: [
+  'ladies-night',
+  'rhumba-old-school-amapiano',
+  'meat-and-greet'
+],
   // ---------------------------------------------------------------
   //  SELECTED WORK (section heading text)
   // ---------------------------------------------------------------
