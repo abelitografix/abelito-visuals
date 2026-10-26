@@ -1,0 +1,27 @@
+/* =====================================================================
+   DESIGN TOKENS  -  change colours and fonts here, once, and the whole
+   site updates. Colours are written as #RRGGBB hex codes.
+   ===================================================================== */
+
+:root {
+  /* Brand colours */
+  --cobalt: #2457ff;
+  --orange: #ff6b35;
+  --lime: #d7ff3f;
+  --pink: #ff4f9a;
+  --paper: #f7f4ed; /* warm off-white, the main background */
+  --ink: #171717; /* deep charcoal, text and dark sections */
+
+  /* Fonts (loaded from Google Fonts in index.html) */
+  --font-display: 'Bricolage Grotesque', 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+
+  /* Layout */
+  --header-h: 4.25rem;
+  --gutter: clamp(1.1rem, 4vw, 3rem);
+  --max: 1360px;
+  --radius: 1.25rem;
+
+  /* Colour of the keyboard focus ring (sections on dark backgrounds override it) */
+  --focus: var(--cobalt);
+}
