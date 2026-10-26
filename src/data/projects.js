@@ -95,13 +95,13 @@ export const projects = [
   variant: 0,
   palette: [C.orange, C.lime, C.ink, C.pink],
   cover: {
-    src: '/work/Meat-&-Greet.jpg',
-    alt: 'Meat and Greet event poster'
+    src: '/work/meet-&-greet.jpg',
+    alt: 'greet and greet event poster'
   },
   images: [
     {
-      src: '/work/Meat-&-Greet.jpg',
-      alt: 'Meat and Greet event flyer'
+      src: '/work/meet-&-greet.jpg',
+      alt: 'Meet and Greet event flyer'
     }
   ],
   video: null,
