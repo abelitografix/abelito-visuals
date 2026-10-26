@@ -47,6 +47,7 @@ export const site = {
   'rhumba-old-school-amapiano',
   'meat-and-greet'
 ],
+},
   // ---------------------------------------------------------------
   //  SELECTED WORK (section heading text)
   // ---------------------------------------------------------------
