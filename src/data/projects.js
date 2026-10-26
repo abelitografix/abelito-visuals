@@ -111,7 +111,6 @@ export const projects = [
   approach: 'Combined warm orange lighting, bold yellow-green typography, artist portraits and energetic event imagery.',
   deliverables: ['Event poster', 'Social media flyer'],
   tools: ['Photoshop']
-},
   },
   {
     slug: 'brand-identity-01',
