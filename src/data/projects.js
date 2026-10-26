@@ -174,14 +174,22 @@ images: [
   },
   {
     slug: 'event-flyer-02',
-    title: 'Flyer Placeholder',
+    title: 'Ride The Sky',
     category: 'posters',
     span: 5,
-    placeholder: true,
+   placeholder: false,
     variant: 5,
     palette: [C.paper, C.orange, C.cobalt, C.ink, C.lime],
-    cover: img('4/5'),
-    images: [img('4/5'), img('4/5')],
+    cover: {
+  src: '/work/event-flyer.jpg',
+  alt: 'Ride The Sky event flyer'
+},
+    images: [
+  {
+    src: '/work/event-flyer.jpg',
+    alt: 'Ride The Sky event flyer'
+  }
+],
     video: null,
     year: '',
     client: '',
