@@ -41,7 +41,7 @@ const img = (ratio, alt = '') => ({ src: null, alt, ratio });
 
 export const projects = [
   {
-    slug: 'event-poster-01', // used in the page link, keep it lowercase with dashes
+   slug: 'ladies-night', // used in the page link, keep it lowercase with dashes
     title: 'Ladies Night',
     category: 'posters', // one of the category ids above
     span: 7, // width on large screens, out of 12 columns (4, 5, 7 or 12 look best)
