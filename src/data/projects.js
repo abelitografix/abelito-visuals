@@ -87,8 +87,8 @@ export const projects = [
   tools: ['Photoshop']
 },
   {
-   slug: 'meat-and-greet',
-  title: 'Meat and Greet',
+   slug: 'meet-and-greet',
+  title: 'Meet and Greet',
   category: 'posters',
   span: 7,
   placeholder: false,
@@ -96,7 +96,7 @@ export const projects = [
   palette: [C.orange, C.lime, C.ink, C.pink],
   cover: {
     src: '/work/meet-&-greet.jpg',
-    alt: 'greet and greet event poster'
+    alt: 'meet and greet event poster'
   },
   images: [
     {
