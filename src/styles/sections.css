@@ -373,7 +373,6 @@
   transform: rotate(8deg);
 }
 
-
 .collage__card:hover,
 .collage__card:focus-visible {
   transform: translateY(-8px) rotate(0deg);
