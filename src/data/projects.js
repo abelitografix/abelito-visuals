@@ -69,12 +69,12 @@ export const projects = [
   variant: 0,
   palette: [C.orange, C.lime, C.ink, C.pink],
   cover: {
-    src: '/work/rhumba-amapiano.jpg',
+    src: '/work/rhumba-amapiano.jpeg',
     alt: 'Rhumba Old School Amapiano poster'
   },
   images: [
     {
-      src: '/work/rhumba-amapiano.jpg',
+      src: '/work/rhumba-amapiano.jpeg',
       alt: 'Rhumba Old School Amapiano flyer'
     }
   ],
