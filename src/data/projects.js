@@ -80,7 +80,7 @@ export const projects = [
   ],
   video: null,
   year: '',
-  client: '',
+  client: 'Dj Elina Finesse & Balson Bistro',
   brief: 'Create a vibrant music event poster celebrating Rhumba, Old School and Amapiano.',
   approach: 'Combined bold 3D typography, energetic orange and yellow lighting, oversized microphones and artist imagery to create a powerful nightlife aesthetic.',
   deliverables: ['Event poster', 'Social media flyer'],
