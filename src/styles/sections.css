@@ -368,9 +368,9 @@
 
 .collage__card.c3 {
   right: 0%;
-  top: 20%;
-  z-index: 1;
-  transform: rotate(10deg);
+  top: 18%;
+  z-index: 4;
+  transform: rotate(8deg);
 }
 
 
