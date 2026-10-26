@@ -60,6 +60,32 @@ export const projects = [
     deliverables: ['Event poster', 'Social media flyer', 'WhatsApp status version'],
     tools: ['Photoshop']
   },
+ {
+  slug: 'rhumba-old-school-amapiano',
+  title: 'Rhumba Old School Amapiano',
+  category: 'posters',
+  span: 7,
+  placeholder: false,
+  variant: 0,
+  palette: [C.orange, C.lime, C.ink, C.pink],
+  cover: {
+    src: '/work/rhumba-amapiano.jpg',
+    alt: 'Rhumba Old School Amapiano poster'
+  },
+  images: [
+    {
+      src: '/work/rhumba-amapiano.jpg',
+      alt: 'Rhumba Old School Amapiano flyer'
+    }
+  ],
+  video: null,
+  year: '',
+  client: '',
+  brief: 'Create a vibrant music event poster celebrating Rhumba, Old School and Amapiano.',
+  approach: 'Combined bold 3D typography, energetic orange and yellow lighting, oversized microphones and artist imagery to create a powerful nightlife aesthetic.',
+  deliverables: ['Event poster', 'Social media flyer'],
+  tools: ['Photoshop']
+},
   {
     slug: 'social-series-01',
     title: 'Social Media Placeholder',
