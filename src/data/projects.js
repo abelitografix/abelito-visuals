@@ -54,11 +54,10 @@ export const projects = [
     year: '', // optional, e.g. '2026'
     client: '', // optional, only fill in if the client is happy to be named
     brief:
-      'Sample text. Describe the event or promotion, who the poster was for, and what it needed to achieve, for example filling a venue or announcing a launch.',
+       'Create an eye-catching Ladies Night promotional poster designed to attract partygoers and showcase an exciting nightlife experience.',
     approach:
-      'Sample text. Explain your thinking: how you chose the headline treatment, colours, imagery and layout so the poster reads from a distance and on a phone screen.',
-    deliverables: ['Print-ready poster (PDF)', 'Social media version', 'WhatsApp / status version'],
-    tools: [], // optional, e.g. ['Photoshop', 'Illustrator']
+      'Combined vibrant neon colours, chrome typography, a futuristic cityscape and striking model imagery to create a premium nightlife aesthetic.',
+    tools: ['Photoshop']
   },
   {
     slug: 'social-series-01',
