@@ -57,6 +57,7 @@ export const projects = [
        'Create an eye-catching Ladies Night promotional poster designed to attract partygoers and showcase an exciting nightlife experience.',
     approach:
       'Combined vibrant neon colours, chrome typography, a futuristic cityscape and striking model imagery to create a premium nightlife aesthetic.',
+    deliverables: ['Event poster', 'Social media flyer', 'WhatsApp status version'],
     tools: ['Photoshop']
   },
   {
