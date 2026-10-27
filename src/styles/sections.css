@@ -2143,3 +2143,21 @@ a.contact-item:hover {
     max-width: 480px;
   }
 }
+
+/* HERO FINAL SPACING REFINEMENT */
+
+@media (min-width: 901px) {
+  .hero {
+    min-height: 760px;
+    padding-bottom: 5rem;
+  }
+
+  .hero__showcase {
+    right: 13%;
+    top: 13%;
+  }
+
+  .hero__lower {
+    gap: 3rem;
+  }
+}
