@@ -1,6 +1,9 @@
 import { site } from '../data/site.js';
 import { Arrow } from './Icons.jsx';
 import RotatingMessage from './RotatingMessage.jsx';
+
+import PhotoshopBox from './PhotoshopBox.jsx';
+
 export default function Hero() {
   const { hero } = site;
 
@@ -31,11 +34,13 @@ export default function Hero() {
       
           <RotatingMessage />
 
-          <div className="hero__showcase">
-            <div className="hero__photoshop-stage">
-              {/* Photoshop 3D box will go here */}
-            </div>
-          </div>
+         
+<div className="hero__showcase">
+  <div className="hero__photoshop-stage">
+    <PhotoshopBox />
+  </div>
+</div>
+
         </div>
       </div>
     </section>
