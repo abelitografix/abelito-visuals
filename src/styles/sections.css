@@ -2290,3 +2290,8 @@ filter: blur(65px);
   pointer-events: none;
   z-index: -1;
 }
+/* Cream background around yellow crawling ticker */
+.marquee {
+  border-top: 40px solid #E5E3DB;
+  border-bottom: 40px solid #E5E3DB;
+}
