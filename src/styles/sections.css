@@ -1489,3 +1489,33 @@ a.contact-item:hover {
   color: #FFFFFF !important;
   -webkit-text-fill-color: #FFFFFF !important;
 }
+/* Animated yellow services ticker */
+@keyframes servicesCrawl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee__track {
+  display: flex;
+  width: max-content;
+  animation: servicesCrawl 25s linear infinite;
+  will-change: transform;
+}
+
+.marquee {
+  overflow: hidden;
+}
+
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track {
+    animation: none;
+  }
+}
