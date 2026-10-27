@@ -84,6 +84,13 @@
   width: 100%;
   min-width: 0;
   min-height: 420px;
-  align-self: start;
-  transform: translateY(-70px);
+  align-self: center;
+  transform: none;
+  overflow: visible;
+}
+
+.hero .creative-wave__svg {
+  width: 100%;
+  max-width: none;
+  height: auto;
 }
