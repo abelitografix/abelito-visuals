@@ -21,13 +21,18 @@ export default function CreativeWave() {
           </filter>
         </defs>
 
-        {Array.from({ length: 14 }, (_, i) => {
-          const offset = i * 11;
+        
+{Array.from({ length: 18 }, (_, i) => {
+  const offset = i * 9;
+  const variation = Math.sin(i * 0.35) * 35;
 
-          const path = `M -50 ${110 + offset}
-            C 140 ${-20 + offset},
-              260 ${330 - offset},
-              650 ${110 + offset}`;
+  const path = `M -50 ${180 + offset}
+    C 100 ${-120 + offset + variation},
+      220 ${500 - offset},
+      370 ${160 + offset}
+    S 540 ${-80 + offset},
+      650 ${190 + offset}`;
+
 
           return (
             <g key={i} className="creative-wave__strand">
