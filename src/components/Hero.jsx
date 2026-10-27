@@ -1,11 +1,6 @@
 import { site } from '../data/site.js';
 import { Arrow } from './Icons.jsx';
-<RotatingMessage />
-<div className="hero__showcase">
-  <div className="hero__photoshop-stage">
-    {/* Photoshop 3D box will go here */}
-  </div>
-</div>
+import RotatingMessage from './RotatingMessage.jsx';
 export default function Hero() {
   const { hero } = site;
 
