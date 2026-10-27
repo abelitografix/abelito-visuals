@@ -1519,3 +1519,40 @@ a.contact-item:hover {
     animation: none;
   }
 }
+/* Continuous scrolling yellow services strip */
+
+@keyframes marqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  overflow: hidden;
+}
+
+.marquee__track {
+  display: flex;
+  width: max-content;
+  animation: marqueeScroll 25s linear infinite;
+  will-change: transform;
+}
+
+.marquee__group {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track {
+    animation: none;
+  }
+}
