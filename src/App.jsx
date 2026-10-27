@@ -24,10 +24,12 @@ export default function App() {
       <Nav />
       <main id="main" tabIndex={-1}>
         <Hero />
-        <div className="ticker-section">
+
+<div className="ticker-section">
   <Marquee />
 </div>
-        <Work onStartProject={startProject} />
+
+<Work onStartProject={startProject} />
         <About />
         <Services onStartProject={startProject} />
         <Contact preset={preset} />
