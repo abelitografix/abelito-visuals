@@ -3,6 +3,7 @@ import { projects } from '../data/projects.js';
 import Artwork from './Artwork.jsx';
 import { Arrow, Star } from './Icons.jsx';
 import CreativeBackground from './CreativeBackground.jsx';
+import RotatingMessage from './RotatingMessage.jsx';
 export default function Hero() {
   const { hero } = site;
   const picks = hero.featured.map((slug) => projects.find((p) => p.slug === slug)).filter(Boolean);
@@ -32,7 +33,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-
+<RotatingMessage />
           <div className="collage">
             <div className="collage__blob" aria-hidden="true" />
             <span className="collage__dot" aria-hidden="true" />
