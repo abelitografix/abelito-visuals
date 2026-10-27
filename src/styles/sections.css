@@ -2048,3 +2048,33 @@ a.contact-item:hover {
     transform: rotateY(-25deg) rotateX(8deg);
   }
 }
+
+/* PHOTOSHOP BOX — POSITION & GLOW REFINEMENT */
+
+@media (min-width: 901px) {
+  .hero__showcase {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    align-self: center;
+    min-height: 480px;
+    transform: translateY(-85px);
+  }
+
+  .hero__photoshop-stage {
+    min-height: 480px;
+  }
+
+  .ps-scene {
+    transform: scale(1.12) rotate(-12deg);
+  }
+}
+
+.ps-glow {
+  background: radial-gradient(
+    ellipse,
+    rgba(190, 255, 56, 0.52) 0%,
+    rgba(124, 255, 30, 0.23) 38%,
+    transparent 72%
+  );
+  filter: blur(38px);
+}
