@@ -31,12 +31,12 @@ export const site = {
   //  HERO (top of the page)
   // ---------------------------------------------------------------
   hero: {
-    eyebrow: 'Independent graphic design · Kenya',
+    eyebrow: 'BOLD IDEAS · VISUAL EXPERIENCES',
     line1: 'GOOD DESIGN',
     line2Start: 'GETS',
     highlight: 'NOTICED.',
     text: 'Bold visuals, thoughtful design, and creative ideas built to make brands stand out.',
-    primaryCta: 'Explore My Work',
+   Turning bold ideas into unforgettable visuals. Creative design that makes brands impossible to ignore.
     secondaryCta: 'Start a Project',
     // Text that spins around the round badge
     badge: 'GRAPHIC DESIGN • KENYA • VISUALS • ',
