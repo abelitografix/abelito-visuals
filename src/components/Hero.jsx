@@ -2,13 +2,14 @@ import { site } from '../data/site.js';
 import { projects } from '../data/projects.js';
 import Artwork from './Artwork.jsx';
 import { Arrow, Star } from './Icons.jsx';
-
+import CreativeBackground from './CreativeBackground.jsx';
 export default function Hero() {
   const { hero } = site;
   const picks = hero.featured.map((slug) => projects.find((p) => p.slug === slug)).filter(Boolean);
 
   return (
     <section className="hero" id="top" aria-labelledby="hero-title">
+      <CreativeBackground />
       <div className="container">
         <p className="eyebrow hero__eyebrow">{hero.eyebrow}</p>
 
