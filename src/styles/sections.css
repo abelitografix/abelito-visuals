@@ -2198,3 +2198,62 @@ a.contact-item:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* =====================================
+   ABELITOVISUALS — PREMIUM HERO GLOWS
+===================================== */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  background: #080a08;
+}
+
+/* Green glow in upper-left corner */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -230px;
+  left: -180px;
+  width: 600px;
+  height: 350px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(133, 255, 34, 0.48) 0%,
+    rgba(66, 175, 20, 0.22) 42%,
+    transparent 75%
+  );
+  filter: blur(35px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Green glow in lower-right corner */
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -150px;
+  bottom: -180px;
+  width: 550px;
+  height: 430px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(137, 255, 25, 0.34) 0%,
+    rgba(45, 130, 16, 0.17) 48%,
+    transparent 75%
+  );
+  filter: blur(45px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Light divider below the hero */
+.hero {
+  margin-bottom: 0;
+}
+
+.hero + section {
+  border-top: 22px solid #f5f4ef;
+}
