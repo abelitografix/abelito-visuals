@@ -29,10 +29,10 @@ export default function Hero() {
               </a>
             </div>
           </div>
-        <RotatingMessage />
-        <CreativeWave />
-      </div>
-         </div>
+       <RotatingMessage />
+</div>
+<CreativeWave />
+</div>
     </section>
   );
 }
