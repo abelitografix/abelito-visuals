@@ -18,7 +18,7 @@ export function LogoMark({ size = 32 }) {
     </svg>
   );
 }
-
+<Logo variant="footer" />
 export function Wordmark() {
   return (
     <span className="wordmark">
@@ -30,13 +30,29 @@ export function Wordmark() {
 }
 
 
-export default function Logo({ href = '#top' }) {
+export default function Logo({
+  href = '#top',
+  variant = 'header'
+}) {
+  const logoSrc =
+    variant === 'footer'
+      ? '/images/abelito-logo-white.png'
+      : '/images/abelito-logo.png';
+
   return (
-    <a className="logo" href={href} aria-label="Abelito.Visuals, back to top">
+    <a
+      className="logo"
+      href={href}
+      aria-label="Abelito.Visuals, back to top"
+    >
       <img
-        src="/images/abelito-logo.png"
+        src={logoSrc}
         alt="AbelitoVisuals"
-        style={{ width: '210px', height: 'auto', display: 'block' }}
+        style={{
+          width: '210px',
+          height: 'auto',
+          display: 'block'
+        }}
       />
     </a>
   );
