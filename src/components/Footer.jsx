@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="footer__grid">
           <div className="footer__brand">
            <div className="footer__logo">
-  <Logo />
+  <Logo variant="footer" />
 </div>
             <p>{site.footer.note}</p>
           </div>
