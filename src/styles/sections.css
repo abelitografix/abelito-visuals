@@ -1636,3 +1636,61 @@ a.contact-item:hover {
     animation: none;
   }
 }
+/* Creative Playground — individual shapes */
+
+.creative-bg__ring {
+  width: 160px;
+  height: 160px;
+  background: transparent !important;
+  border: 18px solid #2457ff;
+  opacity: 0.35;
+  top: 10%;
+  right: 8%;
+}
+
+.creative-bg__circle {
+  width: 90px;
+  height: 90px;
+  background: #ff69b4;
+  opacity: 0.3;
+  top: 55%;
+  left: 7%;
+}
+
+.creative-bg__star {
+  top: 15%;
+  left: 48%;
+  color: #ff8c42;
+  font-size: 80px;
+  background: transparent !important;
+  opacity: 0.6;
+}
+
+.creative-bg__diamond {
+  width: 75px;
+  height: 75px;
+  background: #2457ff;
+  border-radius: 12px;
+  top: 65%;
+  right: 15%;
+  opacity: 0.2;
+}
+
+.creative-bg__small-ring {
+  width: 65px;
+  height: 65px;
+  background: transparent !important;
+  border: 10px solid #ff69b4;
+  top: 75%;
+  left: 35%;
+  opacity: 0.4;
+}
+
+.creative-bg__cross {
+  top: 35%;
+  right: 30%;
+  color: #ff8c42;
+  font-size: 65px;
+  background: transparent !important;
+  opacity: 0.5;
+}
