@@ -1565,3 +1565,74 @@ a.contact-item:hover {
     transform: translateX(-50%);
   }
 }
+/* ABELITO CREATIVE PLAYGROUND */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.hero > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.creative-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.creative-bg__shape {
+  position: absolute;
+  border-radius: 50%;
+  animation: creativeFloat 9s ease-in-out infinite alternate;
+}
+
+.creative-bg__shape:nth-child(1) {
+  width: 180px;
+  height: 180px;
+  background: #2457ff;
+  opacity: 0.12;
+  top: 8%;
+  right: 12%;
+}
+
+.creative-bg__shape:nth-child(2) {
+  width: 110px;
+  height: 110px;
+  background: #ff69b4;
+  opacity: 0.2;
+  top: 55%;
+  left: 5%;
+  animation-delay: -3s;
+}
+
+.creative-bg__shape:nth-child(3) {
+  width: 140px;
+  height: 140px;
+  background: #ff8c42;
+  opacity: 0.15;
+  bottom: 5%;
+  right: 35%;
+  animation-delay: -5s;
+}
+
+@keyframes creativeFloat {
+  from {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  to {
+    transform: translate3d(25px, -35px, 0) rotate(15deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .creative-bg__shape {
+    animation: none;
+  }
+}
