@@ -1769,3 +1769,32 @@ a.contact-item:hover {
   text-transform: uppercase;
   margin-bottom: 14px;
 }
+
+/* AbelitoVisuals premium dark hero */
+.hero {
+  background: #080a08;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-size: clamp(3.5rem, 6vw, 6.5rem);
+  line-height: 0.98;
+}
+
+.hero__title mark {
+  background: #bfff38;
+  color: #080a08;
+}
+
+.hero__eyebrow,
+.hero__copy p {
+  color: #d5d9d2;
+}
+
+.hero .btn--cobalt {
+  background: #bfff38;
+  color: #080a08;
+  border-color: #bfff38;
+}
