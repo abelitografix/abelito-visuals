@@ -2257,3 +2257,11 @@ a.contact-item:hover {
 .hero + section {
   border-top: 22px solid #f5f4ef;
 }
+
+/* Photoshop 3D box position adjustment */
+@media (min-width: 900px) {
+  .hero__photoshop-stage {
+    position: relative;
+    top: 55px;
+  }
+}
