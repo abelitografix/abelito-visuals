@@ -2161,3 +2161,24 @@ a.contact-item:hover {
     gap: 3rem;
   }
 }
+
+/* AbelitoVisuals — Hero layout refinements */
+
+/* Move rotating text upward */
+.hero .hero__lower {
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+
+/* Give the Photoshop box more presence */
+.hero__photoshop-stage {
+  transform: scale(1.12);
+  transform-origin: center center;
+}
+
+/* Keep the layout comfortable on mobile */
+@media (max-width: 767px) {
+  .hero__photoshop-stage {
+    transform: scale(1);
+  }
+}
