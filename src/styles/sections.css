@@ -1761,3 +1761,11 @@ a.contact-item:hover {
     animation: none;
   }
 }
+.rotating-message__eyebrow {
+  color: #d4ff38;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
