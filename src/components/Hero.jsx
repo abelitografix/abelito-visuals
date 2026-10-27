@@ -2,6 +2,7 @@ import { site } from '../data/site.js';
 import { Arrow } from './Icons.jsx';
 import CreativeBackground from './CreativeBackground.jsx';
 import RotatingMessage from './RotatingMessage.jsx';
+import CreativeWave from './CreativeWave.jsx';
 export default function Hero() {
   const { hero } = site;
 
@@ -30,8 +31,8 @@ export default function Hero() {
               </a>
             </div>
           </div>
-<RotatingMessage />
-        </div>
+        <RotatingMessage />
+        <CreativeWave />
       </div>
     </section>
   );
