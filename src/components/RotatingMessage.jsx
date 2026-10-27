@@ -26,7 +26,7 @@ export default function RotatingMessage() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((current) => (current + 1) % messages.length);
-    }, 4000);
+    }, 10000);
 
     return () => clearInterval(timer);
   }, []);
