@@ -1694,3 +1694,70 @@ a.contact-item:hover {
   background: transparent !important;
   opacity: 0.5;
 }
+
+/* ABELITO.VISUALS — ROTATING CREATIVE MESSAGES */
+
+.rotating-message {
+  margin-top: 65px;
+  max-width: 460px;
+  min-height: 150px;
+  position: relative;
+  z-index: 5;
+}
+
+.rotating-message__content {
+  animation: creativeMessageIn 0.7s ease both;
+}
+
+.rotating-message h2 {
+  font-size: clamp(20px, 2.5vw, 32px);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: #111;
+  margin: 0 0 12px;
+}
+
+.rotating-message p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #555;
+  max-width: 410px;
+  margin: 0;
+}
+
+.rotating-message__dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 20px;
+}
+
+.rotating-message__dots span {
+  width: 8px;
+  height: 4px;
+  background: #ccc;
+  border-radius: 10px;
+  transition: width 0.3s, background 0.3s;
+}
+
+.rotating-message__dots span.active {
+  width: 28px;
+  background: #d4df00;
+}
+
+@keyframes creativeMessageIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rotating-message__content {
+    animation: none;
+  }
+}
