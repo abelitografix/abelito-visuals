@@ -447,7 +447,7 @@
 .marquee__track {
   display: flex;
   width: max-content;
-  animation: marquee 38s linear infinite;
+ animation: abelitoTicker 18s linear infinite;
 }
 
 .marquee__group {
@@ -1554,5 +1554,14 @@ a.contact-item:hover {
 @media (prefers-reduced-motion: reduce) {
   .marquee__track {
     animation: none;
+  }
+}
+@keyframes abelitoTicker {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
   }
 }
