@@ -1482,3 +1482,10 @@ a.contact-item:hover {
   margin-top: 1.2rem;
   font-size: 0.92rem;
 }
+/* Footer logo */
+.footer__logo .logo__text,
+.footer__logo .wordmark,
+.footer__logo .wordmark__sub {
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+}
