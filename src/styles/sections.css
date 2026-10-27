@@ -2182,3 +2182,19 @@ a.contact-item:hover {
     transform: scale(1);
   }
 }
+
+/* Keep rotating messages fully visible */
+.hero {
+  padding-bottom: 7rem;
+}
+
+.hero .hero__lower {
+  margin-top: 1rem;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .hero .hero__lower {
+    grid-template-columns: 1fr;
+  }
+}
