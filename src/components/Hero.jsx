@@ -1,5 +1,5 @@
 import { site } from '../data/site.js';
-import { Arrow, Star } from './Icons.jsx';
+import { Arrow } from './Icons.jsx';
 import CreativeBackground from './CreativeBackground.jsx';
 import RotatingMessage from './RotatingMessage.jsx';
 export default function Hero() {
