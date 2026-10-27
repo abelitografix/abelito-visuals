@@ -33,10 +33,16 @@ export default function Hero() {
               </a>
             </div>
           </div>
-       <RotatingMessage />
-</div>
-<CreativeWave />
-</div>
+      
+          <RotatingMessage />
+
+          <div className="hero__showcase">
+            <div className="hero__photoshop-stage">
+              {/* Photoshop 3D box will go here */}
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
