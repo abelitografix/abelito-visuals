@@ -33,6 +33,9 @@ export default function RotatingMessage() {
 
   return (
     <div className="rotating-message" aria-live="off">
+      <p className="rotating-message__eyebrow">
+  {messages[index].eyebrow}
+</p>
       <div className="rotating-message__content" key={index}>
         <h2>{messages[index].title}</h2>
         <p>{messages[index].description}</p>
