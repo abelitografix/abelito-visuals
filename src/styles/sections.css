@@ -1855,3 +1855,196 @@ a.contact-item:hover {
 .hero .rotating-message p {
   color: #E5EDE0;
 }
+
+/* ABELITOVISUALS — PHOTOSHOP 3D SHOWCASE */
+
+.hero__showcase {
+  position: relative;
+  grid-column: 2;
+  grid-row: 1 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 450px;
+  perspective: 1100px;
+}
+
+.hero__photoshop-stage {
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.ps-scene {
+  position: relative;
+  width: 260px;
+  height: 350px;
+  perspective: 1100px;
+  transform: rotate(-12deg);
+  isolation: isolate;
+}
+
+.ps-glow {
+  position: absolute;
+  inset: -75px;
+  background: radial-gradient(
+    ellipse,
+    rgba(190, 255, 56, 0.36) 0%,
+    rgba(124, 255, 30, 0.12) 35%,
+    transparent 70%
+  );
+  filter: blur(28px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.ps-box {
+  position: relative;
+  width: 260px;
+  height: 350px;
+  transform-style: preserve-3d;
+  animation: psRotate 24s linear infinite;
+}
+
+.ps-face {
+  position: absolute;
+  box-sizing: border-box;
+  backface-visibility: visible;
+  border: 1px solid rgba(190, 255, 56, 0.3);
+  overflow: hidden;
+}
+
+.ps-front,
+.ps-back {
+  width: 260px;
+  height: 350px;
+}
+
+.ps-front {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(
+      circle at 100% 15%,
+      rgba(190, 255, 56, 0.26),
+      transparent 48%
+    ),
+    linear-gradient(145deg, #18271b, #080d0a 70%);
+  color: #fff;
+  transform: translateZ(25px);
+}
+
+.ps-back {
+  display: grid;
+  place-items: center;
+  background: #101b13;
+  color: #bfff38;
+  font-size: 110px;
+  font-weight: 900;
+  transform: rotateY(180deg) translateZ(25px);
+}
+
+.ps-right,
+.ps-left {
+  width: 50px;
+  height: 350px;
+  display: grid;
+  place-items: center;
+  background: #253b20;
+  color: #bfff38;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.ps-right {
+  transform: rotateY(90deg) translateZ(235px);
+}
+
+.ps-left {
+  transform: rotateY(-90deg) translateZ(25px);
+}
+
+.ps-top,
+.ps-bottom {
+  width: 260px;
+  height: 50px;
+  background: #304a24;
+}
+
+.ps-top {
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.ps-bottom {
+  transform: rotateX(-90deg) translateZ(325px);
+}
+
+.ps-topline {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #bfff38;
+  font-weight: 700;
+}
+
+.ps-icon {
+  margin-top: 48px;
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: -8px;
+  color: #bfff38;
+  line-height: 1;
+}
+
+.ps-name {
+  margin-top: 18px;
+  font-size: 27px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.ps-subtitle {
+  margin-top: 8px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #c4d5bc;
+}
+
+.ps-footer {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid #49613a;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #bfff38;
+}
+
+@keyframes psRotate {
+  0% {
+    transform: rotateY(-25deg) rotateX(8deg);
+  }
+  100% {
+    transform: rotateY(335deg) rotateX(8deg);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero__showcase {
+    grid-column: 1;
+    grid-row: auto;
+    min-height: 430px;
+  }
+
+  .ps-scene {
+    transform: scale(0.8) rotate(-12deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ps-box {
+    animation: none;
+    transform: rotateY(-25deg) rotateX(8deg);
+  }
+}
