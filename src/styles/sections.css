@@ -1823,3 +1823,12 @@ a.contact-item:hover {
 .hero .rotating-message p {
   color: #D9E2D3;
 }
+/* Rotating message heading */
+.hero .rotating-message h2 {
+  color: #BFFF38;
+}
+
+/* Rotating message description */
+.hero .rotating-message p {
+  color: #D9E2D3;
+}
