@@ -2296,3 +2296,8 @@ filter: blur(65px);
   margin-bottom: 40px;
   box-shadow: 0 0 0 40px #E5E3DB;
 }
+/* Cream section around yellow crawling ticker */
+.ticker-section {
+  background: #E5E3DB;
+  padding: 45px 0;
+}
