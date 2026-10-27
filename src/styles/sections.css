@@ -2301,3 +2301,10 @@ filter: blur(65px);
   background: #E5E3DB;
   padding: 45px 0;
 }
+/* Cream background for scrolling ticker section */
+.ticker-section {
+  display: block;
+  width: 100%;
+  background-color: #E5E3DB !important;
+  padding: 60px 0;
+}
