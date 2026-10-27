@@ -211,18 +211,25 @@
    HERO
    --------------------------------------------------------------------- */
 
+
 .hero {
   position: relative;
   overflow: hidden;
-  padding-top: clamp(2rem, 5vw, 4rem);
-  padding-bottom: clamp(3.5rem, 8vw, 6.5rem);
+  padding-top: clamp(4rem, 7vw, 7rem);
+  padding-bottom: clamp(4rem, 7vw, 6rem);
+  background: #080A08;
+  color: #ffffff;
 }
 
+
+
 .hero__title {
-  font-size: clamp(2.5rem, 11.2vw, 10.25rem);
-  line-height: 0.86;
-  letter-spacing: -0.05em;
+  font-size: clamp(3rem, 5.5vw, 6.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
   text-transform: uppercase;
+  color: #ffffff;
+  max-width: 780px;
 }
 
 .hero__title > span {
@@ -230,13 +237,14 @@
 }
 
 .hero__title mark {
-  display: inline-block;
-  margin-inline: -0.04em;
-  padding: 0 0.1em 0.04em;
-  background: var(--lime);
-  color: var(--ink);
-  transform: rotate(-1.5deg);
-  box-decoration-break: clone;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: #BFFF38;
+  transform: none;
+  box-decoration-break: initial;
+  -webkit-box-decoration-break: initial;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -1797,4 +1805,21 @@ a.contact-item:hover {
   background: #bfff38;
   color: #080a08;
   border-color: #bfff38;
+}
+
+/* AbelitoVisuals — hero text refinements */
+.hero__copy p {
+  color: #E5E9E1;
+}
+
+.hero__eyebrow {
+  color: #C5D0C0;
+}
+
+.hero .rotating-message {
+  color: #FFFFFF;
+}
+
+.hero .rotating-message p {
+  color: #D9E2D3;
 }
