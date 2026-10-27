@@ -7,7 +7,6 @@ export default function Hero() {
 
   return (
     <section className="hero" id="top" aria-labelledby="hero-title">
-      <CreativeBackground />
       <div className="container">
         <p className="eyebrow hero__eyebrow">{hero.eyebrow}</p>
 
