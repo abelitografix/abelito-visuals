@@ -34,6 +34,7 @@ export default function Hero() {
         <RotatingMessage />
         <CreativeWave />
       </div>
+         </div>
     </section>
   );
 }
