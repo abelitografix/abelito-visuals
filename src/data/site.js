@@ -35,8 +35,7 @@ export const site = {
     line1: 'GOOD DESIGN',
     line2Start: 'GETS',
     highlight: 'NOTICED.',
-    text: 'Bold visuals, thoughtful design, and creative ideas built to make brands stand out.',
-   Turning bold ideas into unforgettable visuals. Creative design that makes brands impossible to ignore.
+  text: 'Turning bold ideas into unforgettable visuals. Creative design that makes brands impossible to ignore.',
     secondaryCta: 'Start a Project',
     // Text that spins around the round badge
     badge: 'GRAPHIC DESIGN • KENYA • VISUALS • ',
