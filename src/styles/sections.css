@@ -1832,3 +1832,26 @@ a.contact-item:hover {
 .hero .rotating-message p {
   color: #D9E2D3;
 }
+/* Hero layout refinements */
+
+.hero {
+  padding-bottom: 7rem;
+}
+
+.hero .container {
+  padding-left: clamp(1.5rem, 4vw, 4rem);
+  padding-right: clamp(1.5rem, 4vw, 4rem);
+}
+
+.hero .rotating-message {
+  margin-top: 0;
+  padding-bottom: 1.5rem;
+}
+
+.hero .rotating-message h2 {
+  color: #BFFF38;
+}
+
+.hero .rotating-message p {
+  color: #E5EDE0;
+}
