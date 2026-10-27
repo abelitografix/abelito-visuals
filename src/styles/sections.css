@@ -2078,3 +2078,30 @@ a.contact-item:hover {
   );
   filter: blur(38px);
 }
+
+/* Photoshop showcase — final positioning */
+
+@media (min-width: 901px) {
+  .hero {
+    position: relative;
+  }
+
+  .hero__showcase {
+    position: absolute;
+    top: 12%;
+    right: 7%;
+    width: 34%;
+    min-height: 450px;
+    transform: none;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .hero__photoshop-stage {
+    min-height: 450px;
+  }
+
+  .ps-scene {
+    transform: scale(1.05) rotate(-12deg);
+  }
+}
