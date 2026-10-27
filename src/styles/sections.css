@@ -2308,3 +2308,10 @@ filter: blur(65px);
   background-color: #E5E3DB !important;
   padding: 60px 0;
 }
+/* Cream background for scrolling ticker section */
+.ticker-section {
+  display: block;
+  width: 100%;
+  background-color: #E5E3DB !important;
+  padding: 60px 0;
+}
