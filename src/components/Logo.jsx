@@ -31,11 +31,21 @@ export function Wordmark() {
 
 export default function Logo({ href = '#top' }) {
   return (
-    <a className="logo" href={href} aria-label="Abelito.Visuals, back to top">
-      <LogoMark />
-      <span aria-hidden="true" className="logo__text">
-        <Wordmark />
-      </span>
+    <a
+      className="logo"
+      href={href}
+      aria-label="AbelitoVisuals, back to top"
+    >
+      <img
+        src="/images/abelito-logo.png"
+        alt="AbelitoVisuals"
+        style={{
+          width: '210px',
+          maxWidth: '100%',
+          height: 'auto',
+          display: 'block'
+        }}
+      />
     </a>
   );
 }
