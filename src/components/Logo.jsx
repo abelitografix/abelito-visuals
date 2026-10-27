@@ -29,22 +29,14 @@ export function Wordmark() {
   );
 }
 
+
 export default function Logo({ href = '#top' }) {
   return (
-    <a
-      className="logo"
-      href={href}
-      aria-label="AbelitoVisuals, back to top"
-    >
+    <a className="logo" href={href} aria-label="Abelito.Visuals, back to top">
       <img
         src="/images/abelito-logo.png"
         alt="AbelitoVisuals"
-        style={{
-          width: '210px',
-          maxWidth: '100%',
-          height: 'auto',
-          display: 'block'
-        }}
+        style={{ width: '210px', height: 'auto', display: 'block' }}
       />
     </a>
   );
