@@ -2,19 +2,19 @@
 import { useEffect, useState } from 'react';
 
 const messages = [
-  {
+  {eyebrow: 'BOLD IDEAS · VISUAL EXPERIENCES',
     title: 'IDEAS INTO IMPACT.',
     description: 'We transform bold concepts into powerful visuals that leave a lasting impression.'
   },
-  {
+  {eyebrow: 'BRAND IDENTITY · CREATIVE DIRECTION',
     title: 'DESIGNED TO STAND OUT.',
     description: 'Creative solutions that give brands their own voice, identity, and presence.'
   },
-  {
+  {eyebrow: 'GRAPHIC DESIGN · MOTION DESIGN',
     title: 'CREATIVITY IN MOTION.',
     description: 'From striking graphics to dynamic motion, every detail tells a story.'
   },
-  {
+  {eyebrow: 'DISCOVER THE ABELITO EXPERIENCE',
     title: 'SCROLL TO EXPLORE.',
     description: 'Discover the work, the thinking, and the creativity behind every project.'
   }
