@@ -18,7 +18,7 @@ export function LogoMark({ size = 32 }) {
     </svg>
   );
 }
-<Logo variant="footer" />
+
 export function Wordmark() {
   return (
     <span className="wordmark">
