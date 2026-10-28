@@ -132,11 +132,6 @@ images: [
     deliverables: ['Primary logo and variations', 'Colour and typography guide', 'Social media profile graphics'],
     tools: [],
   },
-  {
-    slug: 'social-series-02',
-    title: 'Carousel Placeholder',
-    category: 'social',
-    span: 4,
     {
   slug: 'queens-of-the-concrete',
   title: 'Queens of the Concrete',
