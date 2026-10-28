@@ -10,7 +10,19 @@ export default function ProjectCard({ project, index, onOpen }) {
 
   return (
     <Reveal as="article" className={`card span-${project.span}`} delay={(index % 4) * 70}>
-      <div className="card__media">
+      <div
+  className="card__media"
+  role="button"
+  tabIndex={0}
+  aria-label={`View ${project.title}`}
+  onClick={() => onOpen(project.slug)}
+  onKeyDown={(event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      onOpen(project.slug);
+    }
+  }}
+>
         <Artwork
           fill
           src={project.cover.src}
