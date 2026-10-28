@@ -274,7 +274,6 @@ images: [
   deliverables: ['Event flyer', 'Social media poster'],
   tools: ['Photoshop']
 },
-  {
    {
   slug: 'campaign-01',
   title: 'Campaign Artwork Placeholder',
