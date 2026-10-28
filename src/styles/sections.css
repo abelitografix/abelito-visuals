@@ -2409,3 +2409,23 @@ filter: blur(65px);
     border-radius: 12px;
   }
 }
+/* FIX MOBILE POSTER GRID SPACING */
+@media (max-width: 600px) {
+  .work .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: auto !important;
+    grid-auto-flow: row !important;
+    align-items: start;
+    align-content: start;
+    gap: 10px !important;
+  }
+
+  .work .card {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    align-self: start;
+    margin: 0 !important;
+    aspect-ratio: 3 / 4;
+  }
+}
