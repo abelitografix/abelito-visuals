@@ -233,11 +233,23 @@ images: [
     tools: [],
   },
   {
-    slug: 'brand-identity-02',
-    title: 'Identity System Placeholder',
-    category: 'brand',
-    span: 7,
-   },
+  slug: 'brand-identity-02',
+  title: 'Identity System Placeholder',
+  category: 'brand',
+  span: 7,
+  placeholder: true,
+  variant: 6,
+  palette: [C.lime, C.cobalt, C.ink],
+  cover: img('1/1'),
+  images: [img('1/1')],
+  video: null,
+  year: '',
+  client: '',
+  brief: 'Brand identity design concept.',
+  approach: 'Creative branding and visual identity development.',
+  deliverables: ['Logo design', 'Brand identity'],
+  tools: [],
+},
 {
   slug: 'madaraka-party-flyer',
   title: 'Madaraka Party Flyer',
@@ -263,22 +275,24 @@ images: [
   tools: ['Photoshop']
 },
   {
-    slug: 'campaign-01',
-    category: 'campaign',
-span: 12,
+   {
+  slug: 'campaign-01',
+  title: 'Campaign Artwork Placeholder',
+  category: 'campaign',
+  span: 12,
+  placeholder: true,
+  variant: 3,
+  palette: [C.orange, C.lime, C.cobalt],
+  cover: img('16/9'),
+  images: [img('16/9')],
+  video: null,
+  year: '',
+  client: '',
+  brief: 'Creative promotional campaign concept.',
+  approach: 'Bold visuals and engaging promotional design.',
+  deliverables: ['Campaign artwork', 'Social media graphics'],
+  tools: [],
 },
-{
-  slug: 'club-flyers-designs',
-  title: 'Club Flyers Designs',
-  category: 'posters',
-  span: 4,
-  placeholder: false,
-  cover: {
-    src: '/work/club flyers designs.jpg',
-    alt: 'Creative nightclub flyer designs'
-  },
-  images: [
-    {
       src: '/work/club flyers designs.jpg',
       alt: 'Club flyers promotional artwork'
     }
