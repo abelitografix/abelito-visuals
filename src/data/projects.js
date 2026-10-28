@@ -137,41 +137,78 @@ images: [
     title: 'Carousel Placeholder',
     category: 'social',
     span: 4,
-    placeholder: true,
-    variant: 2,
-    palette: [C.pink, C.paper, C.cobalt, C.lime, C.ink],
-    cover: img('1/1'),
-    images: [img('4/5'), img('4/5'), img('4/5')],
-    video: null,
-    year: '',
-    client: '',
-    brief:
-      'Sample text. Describe the topic of the carousel, the platform it was made for, and the action you wanted people to take.',
-    approach:
-      'Sample text. Explain how you paced the slides, handled the text hierarchy, and kept people swiping to the end.',
-    deliverables: ['Carousel (up to 10 slides)', 'Cover slide variations', 'Editable source files'],
-    tools: [],
+    {
+  slug: 'queens-of-the-concrete',
+  title: 'Queens of the Concrete',
+  category: 'posters',
+  span: 4,
+  placeholder: false,
+  cover: {
+    src: '/work/queens-of-the-concrete.png',
+    alt: 'Queens of the Concrete event poster'
   },
+  images: [
+    {
+      src: '/work/queens-of-the-concrete.png',
+      alt: 'Queens of the Concrete poster design'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: '',
+  brief: 'Queens of the concreate, No Rules. Just Queens.',
+  approach: 'Expressive typography, dramatic imagery and vibrant colour combinations.',
+  deliverables: ['Event poster', 'Social media flyer'],
+  tools: ['Photoshop']
+},
   {
-    slug: 'motion-01',
-    title: 'Motion Graphics Placeholder',
-    category: 'motion',
-    span: 4,
-    placeholder: true,
-    variant: 4,
-    palette: [C.ink, C.lime, C.pink, C.cobalt, C.orange],
-    cover: img('4/5'),
-    images: [img('16/9'), img('16/9'), img('1/1')],
-    video: null,
-    year: '',
-    client: '',
-    brief:
-      'Sample text. Describe what was animated, where it would be shown, and how long it needed to be.',
-    approach:
-      'Sample text. Explain the movement style, timing and sound (if any), and how the animation keeps the brand look consistent.',
-    deliverables: ['Animated social post (MP4)', 'Vertical story version (9:16)', 'Logo animation'],
-    tools: [],
+   {
+  slug: 'labour-day-offers',
+  title: 'Labour Day Offers',
+  category: 'posters',
+  span: 4,
+  placeholder: false,
+  cover: {
+    src: '/work/labour-day-offers.jpg',
+    alt: 'Labour Day Offers promotional poster'
   },
+  images: [
+    {
+      src: '/work/labour-day-offers.jpg',
+      alt: 'Labour Day Offers poster'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: '',
+  brief: 'Design an eye-catching promotional poster for Labour Day offers.',
+  approach: 'Bold typography, strong visual hierarchy and vibrant colours.',
+  deliverables: ['Promotional poster', 'Social media design'],
+  tools: ['Photoshop']
+},
+  slug: 'sato-shutdown',
+  title: 'Saturday Shutdown',
+  category: 'posters',
+  span: 4,
+  placeholder: false,
+  cover: {
+    src: '/work/sato-shutdown.png',
+    alt: 'Saturday Shutdown event poster'
+  },
+  images: [
+    {
+      src: '/work/sato-shutdown.png',
+      alt: 'Saturday Shutdown poster'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: 'Dj Elina Finesse',
+  brief: 'Create an eye-catching promotional event poster.',
+  approach: 'Bold typography, vibrant colours and engaging visual composition.',
+  deliverables: ['Event poster', 'Social media flyer'],
+  tools: ['Photoshop']
+},
   {
     slug: 'event-flyer-02',
     title: 'Ride The Sky',
@@ -205,41 +242,58 @@ images: [
     title: 'Identity System Placeholder',
     category: 'brand',
     span: 7,
-    placeholder: true,
-    variant: 7,
-    palette: [C.cobalt, C.paper, C.pink, C.orange, C.lime],
-    cover: img('4/3'),
-    images: [img('16/9'), img('4/3'), img('4/3')],
-    video: null,
-    year: '',
-    client: '',
-    brief:
-      'Sample text. Describe who the brand is for, what makes it different, and what the identity had to solve.',
-    approach:
-      'Sample text. Show how the logo, colours, patterns and type come together in real examples such as packaging, social profiles or signage.',
-    deliverables: ['Logo suite', 'Brand colours and fonts', 'Pattern or graphic elements', 'Short brand guide (PDF)'],
-    tools: [],
+   {
+  slug: 'madaraka-party-flyer',
+  title: 'Madaraka Party Flyer',
+  category: 'posters',
+  span: 4,
+  placeholder: false,
+  cover: {
+    src: '/work/MADARAKA-PARTY-FLYER.jpg',
+    alt: 'Madaraka Party event flyer'
   },
+  images: [
+    {
+      src: '/work/MADARAKA-PARTY-FLYER.jpg',
+      alt: 'Madaraka Party flyer design'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: '',
+  brief: 'Create a vibrant promotional flyer for a Madaraka celebration.',
+  approach: 'Bold typography, energetic colours and an eye-catching event composition.',
+  deliverables: ['Event flyer', 'Social media poster'],
+  tools: ['Photoshop']
+},
   {
     slug: 'campaign-01',
     title: 'Campaign Artwork Placeholder',
     category: 'campaign',
     span: 12,
-    placeholder: true,
-    variant: 1,
-    palette: [C.orange, C.cobalt, C.lime, C.ink, C.pink],
-    cover: img('21/9'),
-    images: [img('16/9'), img('4/5'), img('4/5'), img('1/1')],
-    video: null,
-    year: '',
-    client: '',
-    brief:
-      'Sample text. Describe the campaign goal, the audience, and the places the artwork would appear.',
-    approach:
-      'Sample text. Explain the single big idea behind the campaign and how it was adapted for posters, social media and digital ads.',
-    deliverables: ['Key visual', 'Poster and social adaptations', 'Digital ad sizes'],
-    tools: [],
+    {
+  slug: 'club-flyers-designs',
+  title: 'Club Flyers Designs',
+  category: 'posters',
+  span: 4,
+  placeholder: false,
+  cover: {
+    src: '/work/club flyers designs.jpg',
+    alt: 'Creative nightclub flyer designs'
   },
-];
+  images: [
+    {
+      src: '/work/club flyers designs.jpg',
+      alt: 'Club flyers promotional artwork'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: '',
+  brief: 'Create eye-catching nightclub promotional artwork.',
+  approach: 'Vibrant colours, bold typography and energetic nightlife visuals.',
+  deliverables: ['Club flyer', 'Social media poster'],
+  tools: ['Photoshop']
+},
 
 export const getCategory = (id) => categories.find((c) => c.id === id);
