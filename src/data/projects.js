@@ -264,10 +264,10 @@ images: [
 },
   {
     slug: 'campaign-01',
-    title: 'Campaign Artwork Placeholder',
     category: 'campaign',
-    span: 12,
-    {
+span: 12,
+},
+{
   slug: 'club-flyers-designs',
   title: 'Club Flyers Designs',
   category: 'posters',
@@ -289,7 +289,9 @@ images: [
   brief: 'Create eye-catching nightclub promotional artwork.',
   approach: 'Vibrant colours, bold typography and energetic nightlife visuals.',
   deliverables: ['Club flyer', 'Social media poster'],
-  tools: ['Photoshop']
-},
+    tools: ['Photoshop']
+  }
+];
 
+export const getCategory = (id) => categories.find((c) => c.id === id);
 export const getCategory = (id) => categories.find((c) => c.id === id);
