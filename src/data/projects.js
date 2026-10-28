@@ -237,7 +237,8 @@ images: [
     title: 'Identity System Placeholder',
     category: 'brand',
     span: 7,
-   {
+   },
+{
   slug: 'madaraka-party-flyer',
   title: 'Madaraka Party Flyer',
   category: 'posters',
