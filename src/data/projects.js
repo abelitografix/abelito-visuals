@@ -156,7 +156,6 @@ images: [
   deliverables: ['Event poster', 'Social media flyer'],
   tools: ['Photoshop']
 },
-  {
    {
   slug: 'labour-day-offers',
   title: 'Labour Day Offers',
