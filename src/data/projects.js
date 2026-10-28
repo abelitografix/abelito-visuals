@@ -184,6 +184,7 @@ images: [
   slug: 'sato-shutdown',
   title: 'Saturday Shutdown',
   category: 'posters',
+  span: 4,
   placeholder: false,
   cover: {
     src: '/work/sato-shutdown.png',
