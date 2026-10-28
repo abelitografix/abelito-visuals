@@ -292,18 +292,6 @@ images: [
   deliverables: ['Campaign artwork', 'Social media graphics'],
   tools: [],
 },
-      src: '/work/club flyers designs.jpg',
-      alt: 'Club flyers promotional artwork'
-    }
-  ],
-  video: null,
-  year: '2026',
-  client: '',
-  brief: 'Create eye-catching nightclub promotional artwork.',
-  approach: 'Vibrant colours, bold typography and energetic nightlife visuals.',
-  deliverables: ['Club flyer', 'Social media poster'],
-    tools: ['Photoshop']
-  }
 ];
 
 export const getCategory = (id) => categories.find((c) => c.id === id);
