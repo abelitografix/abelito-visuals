@@ -358,16 +358,18 @@ images: [
   category: 'social',
   span: 7,
   placeholder: false,
-  cover: {
-    src: '/work/Urban-Treads-Collection.png',
-    alt: 'Urban Treads Collection promotional design'
-  },
-  images: [
-    {
-      src: '/work/Urban-Treads-Collection.png',
-      alt: 'Urban Treads Collection artwork'
-    }
-  ],
+  
+cover: {
+  src: '/work/URBAN-TREADS-COLLECTION.png',
+  alt: 'Urban Treads Collection promotional design'
+},
+images: [
+  {
+    src: '/work/URBAN-TREADS-COLLECTION.png',
+    alt: 'Urban Treads Collection artwork'
+  }
+],
+
   video: null,
   year: '2026',
   client: '',
