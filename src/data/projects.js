@@ -30,7 +30,7 @@ const C = {
 export const categories = [
   { id: 'posters', label: 'Event Posters & Flyers', inquiry: 'Event poster or flyer' },
   { id: 'social', label: 'Social Media Design', inquiry: 'Social media graphics' },
-  { id: 'brand', label: 'Brand Identity', inquiry: 'Brand identity' },
+ // { id: 'brand', label: 'Brand Identity', inquiry: 'Brand identity' },
   { id: 'campaign', label: 'Campaign Artwork', inquiry: 'Promotional campaign' },
   { id: 'motion', label: 'Motion Graphics', inquiry: 'Motion graphics' },
 ];
@@ -115,7 +115,7 @@ images: [
   {
     slug: 'brand-identity-01',
     title: 'Brand Identity Placeholder',
-    category: 'brand',
+    category: 'hidden',
     span: 4,
     placeholder: true,
     variant: 6,
@@ -235,7 +235,7 @@ images: [
   {
   slug: 'brand-identity-02',
   title: 'Identity System Placeholder',
-  category: 'brand',
+ category: 'hidden',
   span: 7,
   placeholder: true,
   variant: 6,
@@ -321,7 +321,7 @@ images: [
   ],
   video: null,
   year: '2026',
-  client: 'Sinaloa Lavington',
+  client: 'Jose Gatutura',
   brief: 'Design a premium VIP Mugithi Thursday promotional flyer featuring Jose Gatutura and Kareh B.',
   approach: 'Used luxurious gold 3D typography, a royal crown, cinematic orange lighting and prominent artist portraits to communicate an exclusive live music experience.',
   deliverables: ['Event poster', 'Social media flyer'],
