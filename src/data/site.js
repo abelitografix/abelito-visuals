@@ -86,8 +86,8 @@ export const site = {
     ],
     // To show your portrait: put the file in /public (e.g. /public/me.webp)
     // then set photo: '/me.webp' and write a short description in photoAlt.
-    photo: null,
-    photoAlt: '',
+    photo: '/work/abelito-about.png',
+   photoAlt: 'Abelito Visuals — Graphic Designer and Creative Artist',
   },
 
   // ---------------------------------------------------------------
