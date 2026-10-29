@@ -327,7 +327,6 @@ images: [
   deliverables: ['Event poster', 'Social media flyer'],
   tools: ['Photoshop']
 },
-  ];
 
 {
   slug: 'dj-elina-sold-out',
@@ -375,8 +374,11 @@ images: [
   brief: 'Create a stylish promotional graphic showcasing the Urban Treads Collection.',
   approach: 'Combined bold typography, streetwear-inspired aesthetics and a clean visual hierarchy to make the collection stand out.',
   deliverables: ['Social media graphic', 'Promotional artwork'],
-  tools: ['Photoshop']
-},
+    tools: ['Photoshop']
+  }
+];
 
+export const getCategory = (id) =>
+  categories.find((c) => c.id === id);
 
 export const getCategory = (id) => categories.find((c) => c.id === id);
