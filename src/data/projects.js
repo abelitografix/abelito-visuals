@@ -380,5 +380,3 @@ images: [
 
 export const getCategory = (id) =>
   categories.find((c) => c.id === id);
-
-export const getCategory = (id) => categories.find((c) => c.id === id);
