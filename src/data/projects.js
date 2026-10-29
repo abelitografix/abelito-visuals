@@ -329,5 +329,54 @@ images: [
 },
   ];
 
+{
+  slug: 'dj-elina-sold-out',
+  title: 'DJ Elina — Sold Out',
+  category: 'posters',
+  span: 5,
+  placeholder: false,
+  cover: {
+    src: '/work/DjElina-SoldOut.jpg',
+    alt: 'DJ Elina Sold Out promotional poster'
+  },
+  images: [
+    {
+      src: '/work/DjElina-SoldOut.jpg',
+      alt: 'DJ Elina Sold Out artwork'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: 'DJ Elina',
+  brief: 'Create a bold promotional artwork celebrating a sold-out event.',
+  approach: 'Used expressive typography, striking visuals and energetic composition to capture the excitement of a sold-out show.',
+  deliverables: ['Promotional poster', 'Social media artwork'],
+  tools: ['Photoshop']
+},
+{
+  slug: 'urban-treads-collection',
+  title: 'Urban Treads Collection',
+  category: 'social',
+  span: 7,
+  placeholder: false,
+  cover: {
+    src: '/work/Urban-Treads-Collection.png',
+    alt: 'Urban Treads Collection promotional design'
+  },
+  images: [
+    {
+      src: '/work/Urban-Treads-Collection.png',
+      alt: 'Urban Treads Collection artwork'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: '',
+  brief: 'Create a stylish promotional graphic showcasing the Urban Treads Collection.',
+  approach: 'Combined bold typography, streetwear-inspired aesthetics and a clean visual hierarchy to make the collection stand out.',
+  deliverables: ['Social media graphic', 'Promotional artwork'],
+  tools: ['Photoshop']
+},
+
 
 export const getCategory = (id) => categories.find((c) => c.id === id);
