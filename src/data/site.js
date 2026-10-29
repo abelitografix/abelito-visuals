@@ -67,7 +67,7 @@ export const site = {
     eyebrow: 'About',
     statement: 'An independent creative design brand.',
     paragraphs: [
-      "Abelito.Visuals is a creative design brand based in Eldoret,Kenya, turning bold ideas into visuals that demand attention. From event flyers and brand identities to social media graphics and motion design, I create work that stands out and leaves an impression.
+      "Abelito.Visuals is a creative design brand based in Eldoret,Kenya, turning bold ideas into visuals that demand attention. From event flyers and brand identities to social media graphics and motion design, I create work that stands out and leaves an impression.].
 
 I don't just put elements together — I bring ideas to life through striking typography, fearless colours and creative storytelling. Every design has a purpose: **to make your brand impossible to ignore.**',
     ],
