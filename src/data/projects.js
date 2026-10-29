@@ -274,24 +274,59 @@ images: [
   deliverables: ['Event flyer', 'Social media poster'],
   tools: ['Photoshop']
 },
-   {
-  slug: 'campaign-01',
-  title: 'Campaign Artwork Placeholder',
-  category: 'campaign',
-  span: 12,
-  placeholder: true,
-  variant: 3,
-  palette: [C.orange, C.lime, C.cobalt],
-  cover: img('16/9'),
-  images: [img('16/9')],
+   
+{
+  slug: 'kick-off-and-turn-up',
+  title: 'Kick Off & Turn Up',
+  category: 'posters',
+  span: 7,
+  placeholder: false,
+  variant: 0,
+  palette: [C.pink, C.orange, C.ink],
+  cover: {
+    src: '/work/KickOff-&-TurnUp.jpg',
+    alt: 'Kick Off and Turn Up event poster'
+  },
+  images: [
+    {
+      src: '/work/KickOff-&-TurnUp.jpg',
+      alt: 'Kick Off and Turn Up flyer for Relax Lounge'
+    }
+  ],
   video: null,
-  year: '',
-  client: '',
-  brief: 'Creative promotional campaign concept.',
-  approach: 'Bold visuals and engaging promotional design.',
-  deliverables: ['Campaign artwork', 'Social media graphics'],
-  tools: [],
+  year: '2026',
+  client: 'Relax Lounge',
+  brief: 'Create an energetic football-themed event flyer promoting the Arsenal versus Manchester City Community Shield viewing party.',
+  approach: 'Combined striking DJ imagery, bold vertical typography, vibrant magenta and orange tones, and a high-energy nightlife atmosphere.',
+  deliverables: ['Event poster', 'Social media flyer'],
+  tools: ['Photoshop']
 },
-];
+{
+  slug: 'vip-mugithi-thursday',
+  title: 'VIP Mugithi Thursday',
+  category: 'posters',
+  span: 5,
+  placeholder: false,
+  variant: 0,
+  palette: [C.orange, C.ink, C.lime],
+  cover: {
+    src: '/work/VIP-MUGITHI.jpeg',
+    alt: 'VIP Mugithi Thursday event poster'
+  },
+  images: [
+    {
+      src: '/work/VIP-MUGITHI.jpeg',
+      alt: 'VIP Mugithi Thursday featuring Jose Gatutura and Kareh B'
+    }
+  ],
+  video: null,
+  year: '2026',
+  client: 'Sinaloa Lavington',
+  brief: 'Design a premium VIP Mugithi Thursday promotional flyer featuring Jose Gatutura and Kareh B.',
+  approach: 'Used luxurious gold 3D typography, a royal crown, cinematic orange lighting and prominent artist portraits to communicate an exclusive live music experience.',
+  deliverables: ['Event poster', 'Social media flyer'],
+  tools: ['Photoshop']
+},
+
 
 export const getCategory = (id) => categories.find((c) => c.id === id);
