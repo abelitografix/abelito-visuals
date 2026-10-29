@@ -7,6 +7,7 @@ import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import Testimonials from './components/Testimonials.jsx';
 
 export default function App() {
   // When someone clicks "Start a similar project" or "Ask about this",
@@ -31,6 +32,7 @@ export default function App() {
 
 <Work onStartProject={startProject} />
         <About />
+        <Testimonials />
         <Services onStartProject={startProject} />
         <Contact preset={preset} />
       </main>
