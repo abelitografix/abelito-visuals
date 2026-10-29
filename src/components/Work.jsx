@@ -24,15 +24,24 @@ export default function Work({ onStartProject }) {
   const [filter, setFilter] = useState('all');
   const [activeSlug, setActiveSlug] = useState(slugFromHash);
 
-  const visible = useMemo(
-    () => (filter === 'all' ? projects : projects.filter((p) => p.category === filter)),
-    [filter],
-  );
+ const publicProjects = useMemo(
+  () => projects.filter((p) => p.category !== 'hidden'),
+  [],
+);
 
-  const activeProject = projects.find((p) => p.slug === activeSlug) || null;
+const visible = useMemo(
+  () =>
+    filter === 'all'
+      ? publicProjects
+      : publicProjects.filter((p) => p.category === filter),
+  [filter, publicProjects],
+);
+
+  const activeProject = publicProjects.find((p) => p.slug === activeSlug) || null;
   // The next/previous buttons move through the filtered list when possible.
-  const list = visible.some((p) => p.slug === activeSlug) ? visible : projects;
-
+  const list = visible.some((p) => p.slug === activeSlug)
+  ? visible
+  : publicProjects;
   // Keep the panel in sync with the browser's Back/Forward buttons.
   useEffect(() => {
     const onPop = () => setActiveSlug(slugFromHash());
@@ -74,7 +83,7 @@ export default function Work({ onStartProject }) {
     window.setTimeout(() => onStartProject(category?.inquiry || ''), 0);
   };
 
-  const hasPlaceholders = projects.some((p) => p.placeholder);
+  const hasPlaceholders = publicProjects.some((p) => p.placeholder);
   const activeLabel = categories.find((c) => c.id === filter)?.label;
 
   return (
@@ -109,7 +118,7 @@ export default function Work({ onStartProject }) {
         </div>
 
         <p className="work__count" aria-live="polite">
-          Showing {visible.length} of {projects.length} projects{activeLabel ? ` in ${activeLabel}` : ''}
+          Showing {visible.length} of {projects.length} projects
         </p>
 
         <div className={`grid ${filter === 'all' ? 'grid--all' : 'grid--filtered'}`}>
