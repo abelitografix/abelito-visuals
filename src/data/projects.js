@@ -327,6 +327,7 @@ images: [
   deliverables: ['Event poster', 'Social media flyer'],
   tools: ['Photoshop']
 },
+  ];
 
 
 export const getCategory = (id) => categories.find((c) => c.id === id);
