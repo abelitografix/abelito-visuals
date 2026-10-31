@@ -70,47 +70,7 @@ export default function Testimonials() {
           alignItems: "start",
         }}>
 
-          {/* CLIENT TESTIMONIAL */}
-          <div style={{
-            background: "#1B1B1B",
-            border: "1px solid #333",
-            borderRadius: 16,
-            padding: 24,
-          }}>
-            <div style={{
-              color: "#D7FF3F",
-              fontSize: 22,
-              letterSpacing: 4,
-              marginBottom: 18,
-            }}>
-              ★★★★★
-            </div>
 
-            <blockquote style={{
-              fontSize: "clamp(18px, 2vw, 22px)",
-              fontWeight: 700,
-              lineHeight: 1.5,
-              margin: "0 0 28px",
-            }}>
-              “Daaamn 🤗🔥 Lemme share with the client ASAP!”
-            </blockquote>
-
-            <div style={{
-              borderTop: "1px solid #444",
-              paddingTop: 16,
-            }}>
-              <strong style={{ color: "#D7FF3F" }}>
-                Sirnewson
-              </strong>
-              <p style={{
-                color: "#999",
-                margin: "5px 0 0",
-                fontSize: 13,
-              }}>
-                Creative collaborator
-              </p>
-            </div>
-          </div>
 
           {/* CLIENT FEEDBACK FORM */}
           <form
