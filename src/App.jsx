@@ -1,4 +1,5 @@
 import { useCallback, useState } from 'react';
+import {Analytics} from '@vercel/analytics/react';
 import Nav from './components/Nav.jsx';
 import Hero from './components/Hero.jsx';
 import Marquee from './components/Marquee.jsx';
@@ -37,6 +38,7 @@ export default function App() {
         <Contact preset={preset} />
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 }
